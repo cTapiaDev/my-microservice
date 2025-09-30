@@ -1,0 +1,14 @@
+# catalog-info.yaml
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: my-microservice
+  description: "Un microservicio de ejemplo para el laboratorio de Backstage."
+  annotations:
+    # Esta anotación vincula el componente a su código fuente.
+    github.com/project-slug: 'ctapiadev/my-microservice'
+spec:
+  type: service
+  lifecycle: experimental
+  owner: guests
+  system: examples
